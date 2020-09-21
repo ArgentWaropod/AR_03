@@ -15,7 +15,7 @@ public class Sliders : MonoBehaviour
     void Update()
     {
         obj.transform.localScale = new Vector3(scale.value, scale.value, scale.value);
-        obj.transform.rotation = new Quaternion(0, rotation.value, 0, 0);
+        obj.transform.rotation = Quaternion.Euler(0, rotation.value, 0);
     }
     public void button()
     {

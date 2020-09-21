@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARPlane
+    - UnityEngine.XR.ARFoundation.ARPlaneManager
     - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
@@ -83,6 +84,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11422}
     - Class: 114
       Script: {instanceID: 11462}
+    - Class: 114
+      Script: {instanceID: 11614}
     - Class: 114
       Script: {instanceID: 11814}
     - Class: 114
